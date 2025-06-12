@@ -2,61 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GP Forex Signals - Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GP Forex Signals</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f5f7fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f5f9;
       color: #222;
     }
     header {
       background: #0a0f3c;
       color: #fff;
-      padding: 2rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
     nav {
-      background: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       display: flex;
       justify-content: center;
-      gap: 1rem;
-      padding: 1rem;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     nav a {
-      color: #0a0f3c;
+      padding: 1rem;
+      display: block;
       text-decoration: none;
+      color: #0a0f3c;
       font-weight: bold;
+      transition: color 0.3s ease;
     }
     nav a:hover {
-      text-decoration: underline;
+      color: #007bff;
     }
-    .container {
+    .hero {
+      padding: 4rem 1rem;
       text-align: center;
-      padding: 3rem 1rem;
+      background: linear-gradient(120deg, #dbe6fd, #f2f5f9);
     }
-    h1 {
+    .hero h1 {
+      font-size: 2.5rem;
       color: #0a0f3c;
       margin-bottom: 1rem;
     }
-    .cta {
-      margin-top: 2rem;
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 600px;
+      margin: auto;
     }
-    .cta a {
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 1.6rem;
       background: #0a0f3c;
-      color: white;
-      padding: 1rem 2rem;
+      color: #fff;
       text-decoration: none;
       border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #1e2a7e;
+    }
+    footer {
+      background: #0a0f3c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Welcome to GP Forex</h1>
-    <p>Grow Your Trading with Smart, Clear & Proven Signals</p>
+    <p>Smart, Profitable & Proven Signals</p>
   </header>
 
   <nav>
@@ -67,12 +91,14 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <div class="container">
-    <h2>Your Forex Journey Starts Here</h2>
-    <p>Choose from our Free or VIP plans and start profiting today.</p>
-    <div class="cta">
-      <a href="services.html">View Services</a>
-    </div>
-  </div>
+  <section class="hero">
+    <h1>Profit Daily with Smart Forex Signals</h1>
+    <p>Join our free or VIP group and start receiving high-accuracy signals, clear entries, and expert guidance to grow your trading account without stress or gambling.</p>
+    <a href="services.html" class="button">Explore Our Services</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GP Forex | Built by God'spower Mbeledeogu</p>
+  </footer>
 </body>
-</html
+  </html
