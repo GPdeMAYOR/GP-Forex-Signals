@@ -21,7 +21,7 @@ Send proof to WhatsApp: [Click to Message](https://wa.me/2349064544991)
 
 ## 🌐 Live Website
 
-[View Live Site](gp_forex_with_image.zip)
+[View Live Site](index.html)
 
 ---
 
